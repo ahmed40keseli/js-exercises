@@ -33,7 +33,7 @@ if (teknolojiTasarım) {
     console("teknolojiTasarım dersinden geçtiniz.");
 }
 
-//-----------------------------------------------------Example-----------------------------------------------------
+//-----------------------------------------------------Example-1-----------------------------------------------------
 
 let boy = Number(183)
 let kilo = Number(85)
@@ -52,4 +52,26 @@ if(kitleIndex<18.5){
     console.log("Fazla Kilolu");
 }else if(kitleIndex<35){
     console.log("Şişman");
+}
+
+//-----------------------------------------------------Example-2-----------------------------------------------------
+
+if(0<sayi){
+    console.log("Sayı pozitif");
+}else if(0>sayi){
+    console.log("Sayı negatif");
+}else{
+    console.log("Sayı sıfır");
+}
+
+
+if(2025-dogum <= 18){
+    console.log("Ehliyet alabilir");
+}else{
+    console.log("Ehliyet alamaz");
+}
+
+if(90<sinav){
+    console.log("AA");
+}else if(80<sinav){
 }
