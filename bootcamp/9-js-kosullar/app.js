@@ -85,23 +85,29 @@
 //     console.log("FF");
 // }
 
-const vakit = new Date().getHours();
+// const vakit = new Date().getHours();
 
-if (vakit<11) {
-    console.log("Günaydın");
-}else if (12<vakit<17) {
-    console.log("İyi günler");
-}else if (18<vakit<23) {
-    console.log("İyi akşamlar");
-}
+// if (vakit<11) {
+//     console.log("Günaydın");
+// }else if (12<vakit<17) {
+//     console.log("İyi günler");
+// }else if (18<vakit<23) {
+//     console.log("İyi akşamlar");
+// }
 
 
-const password = "A123456a";
+// const password = "Li123456";
 
-if (password.length <= 8) {
-    console.log("Şifre 8 karakterden büyük olmalıdır.");
-}else if (password.toUpperCase() === password) {
-    console.log("Şifre küçük harf içermelidir.");
-}else if (password.toLowerCase() === password) {
-    console.log("Şifre büyük harf içermelidir.");
-}
+// if (password.length >= 8) {
+// } else {
+//     console.log("Şifre 8 karakterden büyük olmalıdır.");
+// }
+// if (password.toUpperCase() != password) {
+// } else {
+//     console.log("Şifre küçük harf içermelidir.");
+// }
+// if (password.toLowerCase() != password) {
+// } else {
+//     console.log("Şifre büyük harf içermelidir.");
+// }
+
